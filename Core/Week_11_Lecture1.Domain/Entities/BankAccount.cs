@@ -10,7 +10,6 @@ namespace Week_11_Lecture1.Domain.Entities
 {
     public class BankAccount : EntityBase<Guid>
     {
- 
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string PhoneNumber { get; set; }
